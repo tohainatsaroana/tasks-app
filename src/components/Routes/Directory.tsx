@@ -21,7 +21,7 @@ const Directory: React.FC = () => {
   >([]);
 
   useEffect(() => {
-    const dirExists = directories.includes(params.dir);
+    const dirExists = params.dir && directories.includes(params.dir);
     if (!dirExists) {
       navigate("/");
     }
@@ -31,7 +31,7 @@ const Directory: React.FC = () => {
 
   return (
     <LayoutRoutes
-      title={`${params.dir}'s tasks`}
+      title={`Les tâches dans ${params.dir}`}
       tasks={tasksInCurrentDirectory}
     />
   );
