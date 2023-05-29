@@ -1,9 +1,8 @@
-```
 # 📅 Application des tâches (Liste des tâches)
 
 Site web d'un organisateur de tâches (liste des choses à faire) réalisé avec React JS, Tailwind CSS, TypeScript, Redux Toolkit et plus encore.
 
-![Page d'accueil](https://github.com/tohainatsaroana/tasks-app/blob/master/public/To-Do%20List%20_%20All%20tasks.png)
+![página inicial](https://github.com/aridsm/tasks-app/blob/master/public/To-Do%20List%20_%20All%20tasks.png)
 
 ## Description
 
@@ -45,4 +44,3 @@ npm start
 
 - Les données des tâches, des répertoires et du mode sombre sont enregistrées dans le localStorage de votre navigateur. Vous pouvez cliquer sur le bouton "delete all data" pour les supprimer du localStorage.
 - À des fins de démonstration, l'application dispose d'une liste par défaut de 3 tâches et d'un répertoire appelé "Main".
-```
