@@ -2,7 +2,7 @@
 
 Site web d'un organisateur de tâches (liste des choses à faire) réalisé avec React JS, Tailwind CSS, TypeScript, Redux Toolkit et plus encore.
 
-![page d'acceuil](https://github.com/tohainatsaroana/tasks-app/tree/main/public/tasks.png)
+![Page d'accueil](https://github.com/tohainatsaroana/tasks-app/tree/main/public/tasks.png)
 
 ## Description
 
