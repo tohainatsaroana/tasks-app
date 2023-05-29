@@ -3,11 +3,11 @@ import { ReactComponent as IconView1 } from "../../assets/view-1.svg";
 import { ReactComponent as IconView2 } from "../../assets/view-2.svg";
 
 const sortValues = [
-  { value: "order-added", title: "Order added" },
-  { value: "min-date", title: "Earlier first" },
-  { value: "max-date", title: "Later first" },
-  { value: "completed-first", title: "Completed first" },
-  { value: "uncompleted-first", title: "Uncompleted first" },
+  { value: "order-added", title: "Ajouté en premier" },
+  { value: "min-date", title: "Plus tôt en premier" },
+  { value: "max-date", title: "Plus tard en premier" },
+  { value: "completed-first", title: "Terminé en premier" },
+  { value: "uncompleted-first", title: "Important en premier" },
 ];
 
 const ButtonsSort: React.FC<{
@@ -30,7 +30,7 @@ const ButtonsSort: React.FC<{
         onChange={({ target }) => setSortedBy(target.value)}
       >
         <option value="" disabled>
-          Sort by
+        Trier par
         </option>
         {sortValues.map((val) => (
           <option
