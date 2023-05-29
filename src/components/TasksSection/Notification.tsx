@@ -41,7 +41,7 @@ const Notification: React.FC = () => {
           {uncompletedTasks.length > 0 ? (
             <div>
               <span className="dark:text-slate-200 font-medium">
-                You have {uncompletedTasks.length} uncompleted tasks today:
+                Vous avez  {uncompletedTasks.length} une tâche importante aujourd'hui:
               </span>
               <ul>
                 {tasksToShow.map((task) => (
@@ -60,12 +60,12 @@ const Notification: React.FC = () => {
                   href="/"
                   className="transition block w-full rounded-md p-1 bg-rose-100 text-rose-600 dark:text-slate-200 dark:bg-slate-700/[.3] text-center"
                 >
-                  See today's tasks
+                  Voir les tâches aujourd'hui.
                 </a>
               )}
             </div>
           ) : (
-            <p>Nothing to show here.</p>
+            <p>Aucune notification.</p>
           )}
         </div>
       )}

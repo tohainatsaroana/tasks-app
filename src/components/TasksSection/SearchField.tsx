@@ -57,11 +57,11 @@ const SearchField: React.FC = () => {
   return (
     <div className="flex-1 col-span-3 row-start-2 md:pr-10">
       <form className=" relative md:max-w-xs w-full" autoComplete="off">
-        <label htmlFor="search" className="sr-only"></label>
+        <label htmlFor="Recherche" className="sr-only"></label>
         <input
-          type="search"
-          id="search"
-          placeholder="Search task"
+          type="Recherche"
+          id="Recherche"
+          placeholder="Rechercher la tâche"
           ref={searchResultsRef}
           onKeyUp={({ currentTarget }) => {
             setSearchInputValue(currentTarget.value);
@@ -82,11 +82,11 @@ const SearchField: React.FC = () => {
                   onClick={navigateToSearchResults}
                   className="bg-rose-100 w-full p-2 rounded-md text-rose-600 dark:bg-slate-700/[.3] dark:text-slate-200"
                 >
-                  All results for "{searchInputValue}"
+                  Toutes les resultats pour "{searchInputValue}"
                 </button>
               </>
             ) : (
-              <span>No tasks found</span>
+              <span>Pas de tâche trouvé</span>
             )}
           </div>
         )}

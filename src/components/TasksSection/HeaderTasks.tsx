@@ -16,27 +16,28 @@ const HeaderTasks: React.FC = () => {
   const day: number = date.getDate();
 
   const monthName: string[] = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    "Janvier",
+    "Fevrier",
+    "Mars",
+    "Avril",
+    "Mai",
+    "Juin",
+    "Juillet",
+    "Aout",
+    "Septembre",
+    "Octobre",
+    "Novembre",
+    "Decembre",
   ];
 
-  const todayDate = `${year}, ${monthName[month].slice(0, 3)} ${day
+  const todayDate = `${day
     .toString()
-    .padStart(2, "0")}`;
+    .padStart(2, "0")} 
+    ${monthName[month].slice(0, 3)}  ${year}`;
 
-  const dateTimeFormat = `${year}-${month.toString().padStart(2, "0")}-${day
+  const dateTimeFormat = `${day
     .toString()
-    .padStart(2, "0")}}`;
+    .padStart(2, "0")}}-${month.toString().padStart(2, "0")}-${year}`;
 
   const openMenuHeaderHandler = () => {
     dispatch(menusActions.openMenuHeader());
@@ -57,7 +58,7 @@ const HeaderTasks: React.FC = () => {
       <SearchField />
       <div className="text-center">
         <span className="text-slate-600 dark:text-slate-200 uppercase font-bold text-sm block xl:hidden">
-          To-do list
+          Liste de To-do
         </span>
         <time dateTime={dateTimeFormat}>{todayDate}</time>
       </div>
