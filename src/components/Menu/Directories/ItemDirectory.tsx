@@ -43,8 +43,8 @@ const ItemDirectory: React.FC<{ dir: string; classActive: string }> = ({
           onClose={closeModalDirectoryHandler}
           onConfirm={confirmEditDirNameHandler}
           dirName={dir}
-          title="Edit directory name"
-          btnText="Edit"
+          title="Modifier le nom du répertoire"
+          btnText="Modifier"
         />
       )}
       {modalIsShown && (
@@ -70,13 +70,13 @@ const ItemDirectory: React.FC<{ dir: string; classActive: string }> = ({
         {dir !== "Main" && (
           <div className="ml-auto buttonsDir">
             <button
-              title="edit directory name"
+              title="Modifier le nom du répertoire"
               onClick={() => setModalDirIsShown(true)}
             >
               <Edit className="w-5 h-5 mr-2" />
             </button>
             <button
-              title="delete directory"
+              title="Supprimer le répertoire"
               onClick={() => setModalIsShown(true)}
             >
               <Trash className="w-5 h-5" />
