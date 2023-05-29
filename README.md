@@ -1,23 +1,24 @@
-# 📅 Tasks App (To-Do List)
+```
+# 📅 Application des tâches (Liste des tâches)
 
-Website de um organizador de tarefas (to-do list) feito com React JS, Tailwind CSS, TypeScript, Redux Toolkit e mais.
+Site web d'un organisateur de tâches (liste des choses à faire) réalisé avec React JS, Tailwind CSS, TypeScript, Redux Toolkit et plus encore.
 
-![página inicial](https://github.com/aridsm/tasks-app/blob/master/public/To-Do%20List%20_%20All%20tasks.png)
+![Page d'accueil](https://github.com/tohainatsaroana/tasks-app/blob/master/public/To-Do%20List%20_%20All%20tasks.png)
 
-## Descrição
+## Description
 
-- Aplicado de organizar suas tarefas com os seguintes dados: título, descrição, data, marcar como completo e marcar como importante. 
-- As tarefas são organizadas em rotas: tarefas de hoje, tarefas importantes, incompletas, completas, todas as tarefas e tarefas por diretório (pasta). Os diretórios e as tarefas podem ser editados ou excluídos. Além disso, há um diretório principal chamado "Main" que não pode ser editado ou excluído.
-- A lista de tarefas pode ser exibida primeiro em: mais próximas, mais distantes, completas ou incompletas.
-- Você pode pesquisar por alguma tarefas no campo de pesquisa.
-- As tarefas de hoje são mostradas na seção do usuário e nas notificações.
-- Os dados de tarefas, diretórios e darkmode são salvos no localStorage.
+- Permet d'organiser vos tâches avec les données suivantes : titre, description, date, marquer comme complet et marquer comme important. 
+- Les tâches sont organisées en routes : tâches du jour, tâches importantes, incomplètes, terminées, toutes les tâches et tâches par répertoire (dossier). Les répertoires et les tâches peuvent être modifiés ou supprimés. De plus, il y a un répertoire principal appelé "Main" qui ne peut pas être modifié ou supprimé.
+- La liste des tâches peut être affichée en premier selon : les plus proches, les plus éloignées, les complètes ou les incomplètes.
+- Vous pouvez rechercher des tâches spécifiques dans le champ de recherche.
+- Les tâches du jour sont affichées dans la section de l'utilisateur et dans les notifications.
+- Les données des tâches, des répertoires et du mode sombre sont enregistrées dans le localStorage.
 
-## Objetivo
+## Objectif
 
-O projeto teve principalmente como objetivo pôr em prática conhecimentos de TypeScript, Tailwind, Redux Toolkit e React Js.
+Ce projet avait principalement pour objectif de mettre en pratique les connaissances en TypeScript, Tailwind, Redux Toolkit et React Js.
 
-## Ferramentas utilizadas
+## Outils utilisés
 
 - React JS
 - TypeScript
@@ -25,22 +26,23 @@ O projeto teve principalmente como objetivo pôr em prática conhecimentos de Ty
 - Redux Toolkit
 - React Router DOM
 - HTML
-- Figma (prototipagem)
+- Figma (prototypage)
 
-## Como testar
+## Comment tester
 
-Você pode acessar o projeto aqui: https://tasks-app-aridsm.netlify.app/
+Vous pouvez accéder au projet ici : https:///
 
-Ou rodar na sua máquina: 
+Ou exécuter le projet sur votre machine :
 
 ``` 
-git clone https://github.com/aridsm/tasks-app.git
+git clone https://github.com/tohainatsaroana/tasks-app.git
 cd tasks-app
 npm install
 npm start
 ```
 
-## Observações
+## Remarques
 
-- Os dados de tarefas, diretórios e darkmode ficam salvos no localStorage do seu navegador. Você pode clicar no botão "delete all data" para removê-los do localStorage.
-- Para fins demonstrativos, o aplicativo possui uma lista padrão de 3 tarefas e 1 diretório chamado "Main".
+- Les données des tâches, des répertoires et du mode sombre sont enregistrées dans le localStorage de votre navigateur. Vous pouvez cliquer sur le bouton "delete all data" pour les supprimer du localStorage.
+- À des fins de démonstration, l'application dispose d'une liste par défaut de 3 tâches et d'un répertoire appelé "Main".
+```
