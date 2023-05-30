@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tasks-app/static/css/main.b249f7e6.css",
+    "main.js": "/tasks-app/static/js/main.4a3fa0e7.js",
+    "static/media/avatar-1.jpg": "/tasks-app/static/media/avatar-1.dd54a17bb468cdfbe7e2.jpg",
+    "static/media/date.svg": "/tasks-app/static/media/date.19a98bcf46b03d7a44e026bda16c6914.svg",
+    "static/media/trash.svg": "/tasks-app/static/media/trash.5cc9432e2708a6dcfe6592df34e96f95.svg",
+    "index.html": "/tasks-app/index.html",
+    "static/media/view-2.svg": "/tasks-app/static/media/view-2.600c36983d8ff00e66c12490d69fbf70.svg",
+    "static/media/star-line.svg": "/tasks-app/static/media/star-line.25108e8798a98248471aab0a3712f57c.svg",
+    "static/media/options.svg": "/tasks-app/static/media/options.b23e257ac213477f9bf22b28d1837460.svg",
+    "static/media/view-1.svg": "/tasks-app/static/media/view-1.65654fa0f8e2ee287cc1b7fb0fa84715.svg",
+    "static/media/edit.svg": "/tasks-app/static/media/edit.2eac95ab110f00cd4f3a63594255835a.svg",
+    "static/media/bell.svg": "/tasks-app/static/media/bell.a0d880118f6893a39636d3007e55c100.svg",
+    "static/media/arrow.svg": "/tasks-app/static/media/arrow.3b06989b99047ede0ed33f04ec61ae93.svg",
+    "static/media/search.svg": "/tasks-app/static/media/search.ecdf8ec7c4f054fbcbfe4af53be7c8a2.svg",
+    "static/media/menu.svg": "/tasks-app/static/media/menu.e1e11b80ad71098a5dff1bff1301683e.svg",
+    "static/media/check.svg": "/tasks-app/static/media/check.1407f3a5b63fe4df2290b863f7e13b6f.svg",
+    "static/media/x.svg": "/tasks-app/static/media/x.6157b2f9cef61f43cfb9afb27dae1ef8.svg",
+    "main.b249f7e6.css.map": "/tasks-app/static/css/main.b249f7e6.css.map",
+    "main.4a3fa0e7.js.map": "/tasks-app/static/js/main.4a3fa0e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b249f7e6.css",
+    "static/js/main.4a3fa0e7.js"
+  ]
+}
